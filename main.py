@@ -4,10 +4,10 @@ from langchain.llms import OpenAI
 # Importing all files
 import docLoading
 import docSplitting
-import docTransformer
+# import docTransformer
 
 # Importing Env Variables
-os.environ["OPENAI_API_KEY"] = os.getenv("openai_key")
+# os.environ["OPENAI_API_KEY"] = os.getenv("openai_key")
 
 # -> Due Work <-
 # Read input files
